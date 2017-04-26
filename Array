@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+int marks[5];
+int m,n;
+
+printf("Enter 5 marks : \n");
+
+for(m=0;m<5;m++){
+        scanf("%d",&marks[m]);
+}
+
+for(n=4; n>=0; n--){
+        printf("%d", marks[n]);
+}
+
+return 0;
+}                   
